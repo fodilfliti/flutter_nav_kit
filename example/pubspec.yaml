@@ -1,0 +1,32 @@
+name: flutter_nav_kit_example
+description: Cold start → login → home → FormPage for flutter_nav_kit.
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ^3.7.2
+  flutter: ">=3.29.0"
+
+dependencies:
+  auto_route: ^11.1.0
+  flutter:
+    sdk: flutter
+  flutter_app_kit:
+    path: ../../flutter_app_kit
+  flutter_nav_kit:
+    path: ../
+  flutter_page_kit:
+    path: ../../flutter_page_kit
+  flutter_riverpod: ^2.6.1
+  lemsa_core_kit:
+    path: ../../lemsa_core_kit
+
+dev_dependencies:
+  auto_route_generator: ^10.5.0
+  build_runner: ^2.4.13
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^9.0.0
+
+flutter:
+  uses-material-design: true

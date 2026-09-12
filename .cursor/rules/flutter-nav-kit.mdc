@@ -1,0 +1,15 @@
+---
+description: Session rules for flutter_nav_kit
+alwaysApply: true
+---
+
+# flutter_nav_kit
+
+- Public API is `lib/flutter_nav_kit.dart` only.
+- Path-depend on sibling `lemsa_core_kit` and `flutter_page_kit`.
+- Implement `PageNavigator`; do not reinvent PageData or Notices.
+- Guards take an app-owned `isSignedIn` callback — never hardcode session providers.
+- Sign-out performs **no** navigation.
+- Controllers never call raw `Navigator`.
+- Use `fvm flutter` (pin 3.35.7). Never upgrade the shared SDK.
+- Do not start other kits unless asked.

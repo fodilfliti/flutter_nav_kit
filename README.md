@@ -1,14 +1,34 @@
 ﻿# flutter_nav_kit
 
-PageNavigator over auto_route, Riverpod guards, and deep-link table.
+`PageNavigator` over auto_route, session guards, and a deep-link table. Depends on [`flutter_page_kit`](../flutter_page_kit) and [`lemsa_core_kit`](../lemsa_core_kit).
 
-> **Status:** Planned / placeholder. Implementation not started.
-> Design: see [lemsa-skills](https://github.com/fodilfliti/lemsa-skills) `spec/kits/flutter_nav_kit.md`.
+## Install
 
-## Depends on
+Path dependency while unpublished:
 
-lemsa_core_kit, flutter_page_kit, auto_route
+```yaml
+dependencies:
+  flutter_nav_kit:
+    path: ../flutter_nav_kit
+  flutter_page_kit:
+    path: ../flutter_page_kit
+  lemsa_core_kit:
+    path: ../lemsa_core_kit
+  auto_route: ^11.1.0
+  flutter_riverpod: ^2.6.1
+```
 
-## Local path
+```dart
+import 'package:flutter_nav_kit/flutter_nav_kit.dart';
+```
 
-`C:\Users\lemsa\Documents\apps\lemsa_packages\flutter_nav_kit\`
+## Owns
+
+- `AutoPageNavigator` — controllers call `nav.push` / `pop` / `replaceAll` / `replaceNamed`
+- `AuthGuard` / `GuestGuard` — app-owned `isSignedIn` (or `AuthSession`)
+- `GuardReevaluate` — session change re-runs guards (sign-out does **not** navigate)
+- `DeepLinkTable` — URI path → typed route
+
+## Does not own
+
+`PageData` / `FormPage` / `Notices` (`flutter_page_kit`), bootstrap / Material snackbars (`flutter_app_kit`), Dio/Supabase auth SDKs (session is app-owned).
