@@ -233,9 +233,10 @@ packages:
   flutter_app_kit:
     dependency: "direct main"
     description:
-      path: "../../flutter_app_kit"
-      relative: true
-    source: path
+      name: flutter_app_kit
+      sha256: "7dc8d2777af45c96643e601d7849ab4b568ec1c265f21d8875a2b4c09aac426c"
+      url: "https://pub.dev"
+    source: hosted
     version: "1.0.0"
   flutter_dotenv:
     dependency: transitive
@@ -245,19 +246,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.1"
-  flutter_nav_kit:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "1.0.0"
   flutter_page_kit:
     dependency: "direct main"
     description:
-      path: "../../flutter_page_kit"
-      relative: true
-    source: path
+      name: flutter_page_kit
+      sha256: c481aa49a086eb629b2334563155cc117e2f11ebb15073033ddba22c9273e7b9
+      url: "https://pub.dev"
+    source: hosted
     version: "1.0.0"
   flutter_riverpod:
     dependency: "direct main"
@@ -456,7 +451,15 @@ packages:
   lemsa_core_kit:
     dependency: "direct main"
     description:
-      path: "../../lemsa_core_kit"
+      name: lemsa_core_kit
+      sha256: cb1d7ded38b8e333120eeb45dac35e29a180ea3aababa535bc4c0c58e227a1a9
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  lemsa_nav_kit:
+    dependency: "direct main"
+    description:
+      path: ".."
       relative: true
     source: path
     version: "1.0.0"

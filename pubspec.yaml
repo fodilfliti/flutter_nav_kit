@@ -2,7 +2,7 @@
 description: >
   PageNavigator over auto_route, session guards, and a deep-link table
   for Lemsa Flutter apps.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/fodilfliti/flutter_nav_kit
 repository: https://github.com/fodilfliti/flutter_nav_kit
 issue_tracker: https://github.com/fodilfliti/flutter_nav_kit/issues
