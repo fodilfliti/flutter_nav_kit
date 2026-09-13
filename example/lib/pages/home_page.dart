@@ -1,6 +1,6 @@
-import 'package:auto_route/auto_route.dart';
+﻿import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_nav_kit/flutter_nav_kit.dart';
+import 'package:lemsa_nav_kit/lemsa_nav_kit.dart';
 import 'package:flutter_nav_kit_example/router/app_router.dart';
 import 'package:flutter_nav_kit_example/session.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -15,7 +15,7 @@ class HomePage extends ConsumerWidget {
     final nav = AutoPageNavigator(context.router);
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home · ${session?.email ?? ''}'),
+        title: Text('Home Â· ${session?.email ?? ''}'),
         actions: [
           TextButton(
             onPressed: () => ref.read(sessionProvider.notifier).signOut(),

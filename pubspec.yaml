@@ -1,4 +1,4 @@
-name: flutter_nav_kit
+﻿name: lemsa_nav_kit
 description: >
   PageNavigator over auto_route, session guards, and a deep-link table
   for Lemsa Flutter apps.

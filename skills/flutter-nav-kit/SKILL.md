@@ -1,10 +1,10 @@
----
+﻿---
 name: flutter-nav-kit
 description: >
   Use flutter_nav_kit for AutoPageNavigator, AuthGuard, GuestGuard,
   GuardReevaluate, and DeepLinkTable over auto_route. Activate for typed
   routes, session guards, deep links, and replacing Navigator.push or
-  GoScreen — not for PageData, FormPage, Notices, Dio, or auth SDKs.
+  GoScreen â€” not for PageData, FormPage, Notices, Dio, or auth SDKs.
 license: MIT
 metadata:
   author: fodilfliti
@@ -12,12 +12,12 @@ metadata:
   homepage: https://pub.dev/packages/flutter_nav_kit
 ---
 
-# flutter_nav_kit (consumer)
+# lemsa_nav_kit (consumer)
 
 ## When to import
 
 ```dart
-import 'package:flutter_nav_kit/flutter_nav_kit.dart';
+import 'package:lemsa_nav_kit/lemsa_nav_kit.dart';
 ```
 
 Use this package for:
@@ -25,7 +25,7 @@ Use this package for:
 - `AutoPageNavigator` as the `PageNavigator` impl
 - `AuthGuard` / `GuestGuard` on auto_route
 - `GuardReevaluate` so sign-out redirects without `nav`
-- `DeepLinkTable` URI → typed route
+- `DeepLinkTable` URI â†’ typed route
 
 ## PageNavigator
 
@@ -63,7 +63,7 @@ isSignedIn: () =>
     ref.read(sessionProvider).valueOrNull?.isSignedIn ?? false,
 ```
 
-`null` session → signed out. `AuthSession.isSignedIn == false` → signed out.
+`null` session â†’ signed out. `AuthSession.isSignedIn == false` â†’ signed out.
 
 ## Guards
 
@@ -112,7 +112,7 @@ if (route != null) await nav.push(route);
 dart run build_runner build --delete-conflicting-outputs
 ```
 
-`dart run flutter_nav_kit:gen` is not shipped in v1.
+`dart run lemsa_nav_kit:gen` is not shipped in v1.
 
 ## Do not put here
 

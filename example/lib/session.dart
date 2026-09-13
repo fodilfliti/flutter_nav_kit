@@ -1,4 +1,4 @@
-import 'package:flutter_nav_kit/flutter_nav_kit.dart';
+﻿import 'package:lemsa_nav_kit/lemsa_nav_kit.dart';
 import 'package:flutter_page_kit/flutter_page_kit.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -23,7 +23,7 @@ class SessionNotifier extends Notifier<ExampleSession?> {
     state = ExampleSession(email: email.trim());
   }
 
-  /// Session only — no navigation (AuthGuard redirects).
+  /// Session only â€” no navigation (AuthGuard redirects).
   void signOut() {
     state = null;
   }

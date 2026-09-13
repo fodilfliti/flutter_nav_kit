@@ -1,5 +1,5 @@
-name: flutter_nav_kit_example
-description: Cold start → login → home → FormPage for flutter_nav_kit.
+﻿name: flutter_nav_kit_example
+description: Cold start â†’ login â†’ home â†’ FormPage for flutter_nav_kit.
 publish_to: 'none'
 version: 1.0.0
 
@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   flutter_app_kit:
     path: ../../flutter_app_kit
-  flutter_nav_kit:
+  lemsa_nav_kit:
     path: ../
   flutter_page_kit:
     path: ../../flutter_page_kit

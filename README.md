@@ -1,6 +1,6 @@
-﻿# flutter_nav_kit
+﻿# lemsa_nav_kit
 
-[![pub package](https://img.shields.io/pub/v/flutter_nav_kit.svg)](https://pub.dev/packages/flutter_nav_kit)
+[![pub package](https://img.shields.io/pub/v/lemsa_nav_kit.svg)](https://pub.dev/packages/lemsa_nav_kit)
 
 `PageNavigator` over auto_route, session guards, and a deep-link table.
 
@@ -11,7 +11,7 @@
 
 ```yaml
 dependencies:
-  flutter_nav_kit: ^1.0.0
+  lemsa_nav_kit: ^1.0.0
   flutter_page_kit: ^1.0.0
   lemsa_core_kit: ^1.0.0
   auto_route: ^11.1.0
@@ -19,7 +19,7 @@ dependencies:
 ```
 
 ```dart
-import 'package:flutter_nav_kit/flutter_nav_kit.dart';
+import 'package:lemsa_nav_kit/lemsa_nav_kit.dart';
 ```
 
 ## Owns

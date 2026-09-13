@@ -1,8 +1,8 @@
-/// PageNavigator over auto_route, session guards, and deep links.
+﻿/// PageNavigator over auto_route, session guards, and deep links.
 ///
 /// Import only this library:
 /// ```dart
-/// import 'package:flutter_nav_kit/flutter_nav_kit.dart';
+/// import 'package:lemsa_nav_kit/lemsa_nav_kit.dart';
 /// ```
 library;
 

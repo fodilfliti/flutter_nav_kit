@@ -1,8 +1,8 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:auto_route/auto_route.dart';
-import 'package:flutter_nav_kit/src/guards/guard_verdict.dart';
-import 'package:flutter_nav_kit/src/session/auth_session.dart';
+import 'package:lemsa_nav_kit/src/guards/guard_verdict.dart';
+import 'package:lemsa_nav_kit/src/session/auth_session.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/misc.dart' show ProviderListenable;
 

@@ -1,4 +1,4 @@
-# flutter_nav_kit
+﻿# lemsa_nav_kit
 
 `PageNavigator` over auto_route, session guards, and a pragmatic deep-link table.
 
@@ -6,7 +6,7 @@
 
 | Layer | Path | Role |
 | --- | --- | --- |
-| Barrel | `lib/flutter_nav_kit.dart` | Only public export |
+| Barrel | `lib/lemsa_nav_kit.dart` | Only public export |
 | Navigator | `lib/src/navigator/` | `AutoPageNavigator` |
 | Session | `lib/src/session/` | `AuthSession`, `isSignedInSession` |
 | Guards | `lib/src/guards/` | `AuthGuard`, `GuestGuard`, `GuardVerdict`, `GuardReevaluate` |

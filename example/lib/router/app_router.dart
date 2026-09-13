@@ -1,5 +1,5 @@
-import 'package:auto_route/auto_route.dart';
-import 'package:flutter_nav_kit/flutter_nav_kit.dart';
+﻿import 'package:auto_route/auto_route.dart';
+import 'package:lemsa_nav_kit/lemsa_nav_kit.dart';
 import 'package:flutter_nav_kit_example/pages/home_page.dart';
 import 'package:flutter_nav_kit_example/pages/login_page.dart';
 import 'package:flutter_nav_kit_example/pages/note_form_page.dart';

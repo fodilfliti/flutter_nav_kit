@@ -1,12 +1,12 @@
-# flutter_nav_kit
+﻿# lemsa_nav_kit
 
 PageNavigator over auto_route, AuthGuard / GuestGuard, deep-link table.
 
-- Public barrel: lib/flutter_nav_kit.dart
+- Public barrel: lib/lemsa_nav_kit.dart
 - AutoPageNavigator implements flutter_page_kit PageNavigator
-- Guards take app-owned isSignedIn / AuthSession — no hardcoded providers
+- Guards take app-owned isSignedIn / AuthSession â€” no hardcoded providers
 - Sign-out does not navigate; GuardReevaluate re-runs guards
 - DeepLinkTable maps URI path patterns to typed routes
 - Route args are @RoutePage constructor params
-- dart run flutter_nav_kit:gen is deferred; use build_runner + auto_route_generator
+- dart run lemsa_nav_kit:gen is deferred; use build_runner + auto_route_generator
 - FVM Flutter 3.35.7

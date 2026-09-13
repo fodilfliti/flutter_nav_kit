@@ -1,6 +1,6 @@
-# Agent instructions — Flutter Nav Kit
+﻿# Agent instructions â€” Flutter Nav Kit
 
-This is a **Flutter package** (`flutter_nav_kit`), not an application.
+This is a **Flutter package** (`lemsa_nav_kit`), not an application.
 
 ## Load context
 
@@ -10,7 +10,7 @@ This is a **Flutter package** (`flutter_nav_kit`), not an application.
 
 ## Working rules
 
-- Keep the public barrel (`lib/flutter_nav_kit.dart`) the only public API.
+- Keep the public barrel (`lib/lemsa_nav_kit.dart`) the only public API.
 - `AutoPageNavigator` implements `PageNavigator` from `flutter_page_kit`.
 - Guards read an **app-owned** session (`isSignedIn` / `AuthSession`). Do not import lab or app provider names.
 - Sign-out is a session state change only. Guards redirect. Controllers must not `nav` on sign-out.
@@ -25,4 +25,4 @@ Pinned in `.fvmrc` to **3.35.7**. Use `fvm flutter` / `fvm dart`. Never run `flu
 
 ## Out of scope unless asked
 
-Publishing to pub.dev, wrapping `auto_route_generator` as `dart run flutter_nav_kit:gen`, migrating lab / reference apps.
+Publishing to pub.dev, wrapping `auto_route_generator` as `dart run lemsa_nav_kit:gen`, migrating lab / reference apps.
