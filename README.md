@@ -1,4 +1,4 @@
-﻿# lemsa_nav_kit
+# lemsa_nav_kit
 
 [![pub package](https://img.shields.io/pub/v/lemsa_nav_kit.svg)](https://pub.dev/packages/lemsa_nav_kit)
 
@@ -32,11 +32,11 @@ import 'package:lemsa_nav_kit/lemsa_nav_kit.dart';
 ## Agent skill
 
 ```bash
-npx skills add fodilfliti/flutter_nav_kit
+npx skills add fodilfliti/lemsa_nav_kit
 # or: npx skills add fodilfliti/lemsa-skills
 ```
 
 ## Links
 
-- [GitHub](https://github.com/fodilfliti/flutter_nav_kit)
+- [GitHub](https://github.com/fodilfliti/lemsa_nav_kit)
 - [Lemsa skills](https://github.com/fodilfliti/lemsa-skills)
