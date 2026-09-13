@@ -1,6 +1,6 @@
 ﻿name: flutter_nav_kit_example
-description: Cold start â†’ login â†’ home â†’ FormPage for flutter_nav_kit.
-publish_to: 'none'
+description: Cold start → login → home → FormPage for lemsa_nav_kit.
+publish_to: "none"
 version: 1.0.0
 
 environment:
@@ -11,15 +11,12 @@ dependencies:
   auto_route: ^11.1.0
   flutter:
     sdk: flutter
-  flutter_app_kit:
-    path: ../../flutter_app_kit
+  flutter_app_kit: ^1.0.0
   lemsa_nav_kit:
     path: ../
-  flutter_page_kit:
-    path: ../../flutter_page_kit
+  flutter_page_kit: ^1.0.0
   flutter_riverpod: ^3.4.2
-  lemsa_core_kit:
-    path: ../../lemsa_core_kit
+  lemsa_core_kit: ^1.0.0
 
 dev_dependencies:
   auto_route_generator: ^10.6.0
